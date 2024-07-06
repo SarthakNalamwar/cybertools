@@ -1,0 +1,6 @@
+a = Analysis(
+    ['password_analyzer.py'],
+    ...
+    datas=[('passwords.txt', '.')],  # Add this line to include the file
+    ...
+)
